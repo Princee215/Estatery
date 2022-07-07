@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1.666;
+  background: #f3f2f4;
+}
+
+hr {
+  color: lightgray;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+h1 span {
+  padding: 5px 15px;
+  background: #2ec2b0;
+}
+
+.term img {
+  width: 100%;
+  height: 50%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.dictionary {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin: 4rem auto;
+  max-width: 80%;
+}
+
+.dictionary > .term {
+  text-align: left;
+  max-width: 22rem;
+  max-height: 25rem;
+  margin: 1.5rem;
+  padding: 0;
+  border-radius: 1rem;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: all 100ms ease-in-out;
+}
+
+.entry {
+  margin: 7% 8%;
+  color: gray;
+}
+
+.room {
+  font-weight: 500;
+  font-size: 80%;
+  margin: 0 2%;
+}
+
+.month {
+  color: lightgray;
+  font-size: 50%;
+}
+
+.rate {
+  color: #7b68ee;
+  font-weight: 700;
+}
+
+.property {
+  font-weight: 700;
+  color: black;
+}
+
+.x {
+  color: black;
+  margin: 0 1rem;
+}
+
+.x.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.a {
+  border-color: #7b68ee;
+  color: #7b68ee;
+  margin: 0 0.5rem;
+}
+
+.b {
+  border-color: #7b68ee;
+  background-color: #7b68ee;
+  margin: 0 0.5rem;
+}
+
+.z {
+  color: #7b68ee;
+  background-color: #ece9ef;
+}
+
+.homeIcon {
+  font-size: 200%;
+  color: #7b68ee;
+  padding-top: 2%;
+}
+
+.icon {
+  color: #7b68ee;
+}
+
+.searchBox {
+  padding: 1rem 0;
+  margin: 1.3rem;
+  background-color: white;
+}
+
+.heading {
+  margin: 1.3rem;
+}
+
+.input {
+  margin: 1.83rem;
+}
+
+.vl,
+.input {
+  display: inline;
+}
+
+.vl {
+  border-left: 2px solid lightgray;
+  font-size: 2.5rem;
+}
+
+.b.btn-lg {
+  margin-bottom: 1.5%;
+}
+
+.searchName {
+  margin: 0 0 0 28.5%;
+}
+
+.heart {
+  margin-left: 50%;
+}
